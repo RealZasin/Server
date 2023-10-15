@@ -1,0 +1,237 @@
+*, html {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body {
+background: linear-gradient(to bottom left, rgb(197, 197, 197), rgb(137, 218, 255));
+background-repeat: no-repeat; /* Prevent the background from repeating */
+background-attachment: fixed; /* Fixes the background so content scrolls over it */
+font-family: 'Quicksand', sans-serif;
+margin-bottom: 1rem;
+}
+
+#prosjekterBtn{
+    background-color: transparent;
+    border: 0;
+    font-size: 1.3rem;
+}
+
+#kontaktBtn{
+    background-color: transparent;
+    border: 0;
+    font-size: 1.3rem;
+}
+
+.logoImg {
+    width: 4rem;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0rem -0.6rem 1rem 0.1rem;
+    margin: auto;
+    padding: auto;
+}
+
+.skills {
+    padding: 0.4rem 0rem;
+    height: 3rem;
+}
+
+.Me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
+
+.Selfie {
+    height: 15rem;
+    border: 0.3rem solid rgb(0, 25, 48); 
+    border-radius: 0.4rem;    
+}
+
+.OmMeg {
+    margin-top: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.OmMeg h3 {
+    margin-bottom: 0rem;
+}
+
+#prosjekter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#prosjekter h3{
+    margin-bottom: 0;
+}
+
+#Prosjekter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        
+}
+
+.GridContainer {
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 0rem;
+    padding: 0rem 1rem;
+    
+}
+
+.gridProsjekter {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.gridProsjekter img{
+    width: 8rem;
+}
+
+#MyFooter {
+    text-align: start;
+    display: block;
+    padding: 0.5rem 2rem;
+}
+
+img {
+    border-radius: 0.2rem;
+}
+
+.gridProsjekter .GithubLink {
+    font-size: 0.8rem;
+    padding: 0rem;
+    margin: 0rem;
+
+}
+
+.gridProsjekter {
+    padding: 0.4rem;
+}
+
+@media (min-width: 768px) {
+    
+    *, html {
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        
+    }
+    .OmMeg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 80rem;
+        margin: auto;
+    }
+
+    .OmMeg h3 {
+        font-size: 2rem;
+    }
+
+    .OmMeg p {
+        font-size: 1.4rem;
+    }
+
+    .gridProsjekter {
+        padding: 1rem;
+    }
+
+    .gridProsjekter img{
+        width: 40rem;
+        max-width: 100%; 
+
+    } 
+
+    .Me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .Me h3{
+        font-size: 2rem;
+        margin-bottom: 0rem;
+    }
+
+    .Me label{
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+
+    .Selfie {
+        height: 30rem;
+        border: 0.3rem solid rgb(0, 25, 48); 
+        border-radius: 0.4rem;    
+    }
+
+    .skills {
+        height: 5rem;
+    }
+
+    #Prosjekter {
+        width: 100%;
+    }
+
+    #Prosjekter h3 {
+        font-size: 2rem;
+    }
+
+    
+    .gridProsjekter .GithubLink {
+    font-size: 1.4rem;
+    padding: 0rem;
+    margin: 0rem;
+    }
+
+    
+
+
+
+}
+
+
+
